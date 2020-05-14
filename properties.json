@@ -1,0 +1,193 @@
+{
+  "streams": [
+    {
+      "stream": "bluths_from_csv",
+      "tap_stream_id": "bluths_from_csv",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "safegraph_brand_id": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "brand_name": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "parent_safegraph_brand_id": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "naics_code": {
+            "type": [
+              "null",
+              "integer",
+              "string"
+            ]
+          },
+          "top_category": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "sub_category": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "stock_symbol": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "stock_exchange": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "_sdc_source_bucket": {
+            "type": "string"
+          },
+          "_sdc_source_file": {
+            "type": "string"
+          },
+          "_sdc_source_lineno": {
+            "type": "integer"
+          },
+          "_sdc_extra": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "metadata": [
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "table-key-properties": []
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "safegraph_brand_id"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "brand_name"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "parent_safegraph_brand_id"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "naics_code"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "top_category"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "sub_category"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "stock_symbol"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "stock_exchange"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "_sdc_source_bucket"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "_sdc_source_file"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "_sdc_source_lineno"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "_sdc_extra"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        }
+      ]
+    }
+  ]
+}

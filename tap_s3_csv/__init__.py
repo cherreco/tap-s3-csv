@@ -78,7 +78,7 @@ def main():
     try:
         for page in s3.list_files_in_bucket(config['bucket']):
             break
-        LOGGER.info("I have direct access to the bucket without assuming the configured role.")
+#         LOGGER.info("I have direct access to the bucket without assuming the configured role.")
     except:
         s3.setup_aws_client(config)
 
